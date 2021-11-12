@@ -1,0 +1,27 @@
+=======================
+===== RAW METRICS =====
+=======================
+LOC:  _            # The total number of lines of code.
+LLOC: _            # The number of logical lines of code. 
+SLOC:   _          # The number of source lines of code
+Comments: _         # The number of comment lines. Multi-line strings are not counted.
+Single comments: _
+Multi: _            # The number of lines which represent multi-line strings.
+Blank: _            # The number of blank lines
+
+=================================
+===== Cyclomatic Complexity =====
+=================================
+parent: _
+main: _
+
+============================
+===== Halstead Metrics =====
+============================
+η1: _               # the number of distinct operators ( >, == ...)
+η2: _               # the number of distinct operands
+N1: _               # the total number of operators
+N2: _               # the total number of operands
+vocabulary: _       # η1 + η2
+length: _           # N1 + N2
+volume: _           # N * log2(η)
